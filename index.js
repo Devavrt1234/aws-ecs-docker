@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Welcome to ASHI Node Application !!!!!!");
+  res.send("Welcome to Dev Node Application !!!!!!");
 });
 
 app.get("/info", (req, res) => {
